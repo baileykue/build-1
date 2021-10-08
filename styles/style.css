@@ -18,8 +18,8 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    font-family: 'Major Mono Display', monospace;
+    background-color: #F7FFF6;
 }
 
 main {
@@ -111,3 +111,22 @@ footer {
     }
 
   }
+
+
+ button {
+    background-color: #BCEBCB;
+    color: #87D68D;
+    font-family: 'Major Mono Display', monospace;
+    text-shadow: 2px 2px #3e6441;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+button:hover {
+    background-color: #8491A3;
+}
+
+p {
+    color: #93B48B;
+    text-shadow: 2px 2px #3e6441;
+}
